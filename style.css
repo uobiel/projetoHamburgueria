@@ -1,0 +1,658 @@
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Bevan&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Bevan&family=Khand:wght@300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Akronim&family=Bevan&family=Khand:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+  
+  .container {
+    background-image: url('img/image-1\ 1.png');
+    background-size: 100% ;
+    height: 100%; /* 100% da altura da tela */
+    width: 100%; /* 100% da largura da tela */
+    max-width: 1600px;
+    min-width: 1080px;
+    background-repeat: no-repeat;
+  }
+  
+
+.header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.menus a {
+    text-decoration: none;
+    margin: 20px;
+    padding-right: 30px;
+    color: #fff;
+    font-weight: 30px;
+}  
+
+#busca {
+    width: 215.073px;
+    height: 41.5px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #FF780B;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    color: white;
+    margin-right: 40px;
+    background-image: url('img/iconamoon_search-bold.png');
+    background-repeat: no-repeat;
+    background-position: 90%;
+    -webkit-appearance: none; /* Remove o X Para Safari e Chrome */
+    -moz-appearance: none; /*Remove o X Para Firefox */
+    appearance: none; /* Remove o X Para navegadores modernos que suportam 'appearance' */
+}
+
+#busca::placeholder {
+    color: #fff;
+}
+
+.main {
+    width: 100%;
+    max-width: 900px;
+    height: 100vh;
+    max-height: 400px;
+    margin-left: 50px;
+}
+
+.main svg {
+    position: relative;
+    right: -500px;
+}
+
+.texto-marcado {
+    color: #FF780B;
+    font-family: Roboto;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-weight: bold;
+}
+
+.text {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-weight: bold;
+}
+
+.texto-secundario {
+    color: white;
+    margin-top: 20px;
+}
+
+.card-radius {
+    width: 100%;
+    max-width: 210px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #ffffff16;
+    padding: 20px;
+    background-image: url('img/streamline-emojis_hamburger-3.png');
+    background-repeat: no-repeat;
+    background-position: 5%;
+    padding-left: 35px;
+    margin-bottom: 20px;
+}
+
+.card-radius p {
+    color: #FEBD01;
+    font-weight: bold;
+}
+
+.buttons-order-view-menu {
+    display: flex;
+    margin-top: 30px;
+}
+
+.pedir-comida {
+    box-shadow: 0px 3px 15px 0px rgba(255, 120, 11, 0.25);
+    background: #E1690A;    
+}
+
+.pedir-comida:hover {
+    box-shadow: 0px 3px 15px 0px rgba(255, 120, 11, 0.25);
+    background: #f27108;    
+    transform: scale(1.1);
+}
+
+.ver-menu {
+    background-image: url('img/play-buttton\ 1.png');
+    background-repeat: no-repeat;
+    background-position: 10%;
+    margin-left: 20px;
+}
+
+.ver-menu:hover {
+    transform: scale(1.1);
+}
+
+.buttons {
+    width: 180px;
+    height: 65px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.buttons p {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#cards-images {
+    width: 100%;
+    height: 350px;
+    margin-top: 700px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.image1 {
+    width: 100%;
+    max-width: 746px;
+    height: 350px;
+    background-position: center;
+    background-size: cover;
+    background-size: 100%;
+    border-radius: 16px;
+    background: url('img/imagem-lanche.svg'), lightgray 50% / cover no-repeat;
+}
+
+.image2-3 {
+    height: 350px;
+    width: 40%;
+    margin-left: 20px;
+}
+
+.image2 {
+    width: 572.84px;
+    height: 165px;
+    border-radius: 30px;
+    background: url('img/Rectangle10.png');
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.image2 p {
+    margin-left: 80px;
+    margin-top: 5px;
+}
+
+.image3 p {
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+.tente-hoje {
+    color: white;
+    font-size: 15px;
+}
+
+.mais-diversao {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.image3 {
+    width: 525px;
+    height: 165px;
+    border-radius: 16px;
+    background: url('img/Rectangle11.png'), lightgray -81.366px -154.904px / 117.017% 248.155% no-repeat;    
+    margin-left: 50px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: justify;
+}
+
+#escolha-aproveite {
+    color: var(--dark-brown, #3A0A04);
+    text-align: center;
+    font-family: 'Bevan', serif;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+#encontre {
+    color: var(--body-text, #232329);
+    text-align: center;
+    font-family: Khand;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.opcoes-lanche {
+    margin-top: 100px;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card-opcao {
+    width: 100%;
+    max-width: 348px;
+    height: 450px;
+    background-repeat: no-repeat;
+    margin: 20px;
+    display: flex;
+    align-items: flex-end;
+}
+
+#opcao1 {
+    background-image: url('img/opcao1.svg');
+}
+
+#opcao2 {
+    background-image: url('img/opcao2.svg');
+}
+
+#opcao3 {
+    background-image: url('img/opcao3.svg');
+}
+
+.text {
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+}
+
+.name-burguer {
+    color: #232329;
+    text-align: center;
+    font-family: Khand;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.descricao-burguer {
+    color: #232329;
+    text-align: center;
+    font-family: Khand;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.historia {
+    width: 100%;
+    height: 400px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.burguer-img-historia, .historia-burguer {
+    width: 100%;
+    max-width: 636px;
+    height: 100%;
+    margin: 30px;
+}
+
+#historia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #232329;
+    font-family: Khand;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+#nossa-historia {
+    color: #3A0A04;
+    text-align: center;
+    font-family: Bevan;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: start;
+}
+
+.burguer-img-historia {
+    border-radius: 25px;
+    background: url('img/Secret-Veg-Cheeseburgers-c981dd6\ 1.png'), lightgray 50% / cover no-repeat;
+}
+
+.reservar-mesa {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 30px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#titulo-reserva {
+    color: var(--dark-brown, #3A0A04);
+    font-family: Bevan;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+#texto-reserva {
+    color: var(--body-text, #232329);
+    text-align: center;
+    font-family: Khand;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.formulario-reserva {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.formulario-right, .formulario-left {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.input-form {
+    display: flex;
+    width: 526px;
+    padding: 15px 24px;
+    align-items: flex-start;
+    gap: 10px;
+    border: 1px solid var(--body-text, #232329);
+    background: var(--white, #FFF);
+    margin: 10px;
+}
+
+.input-form::placeholder {
+    color: #000;
+    font-family: Khand;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400px;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+#quantidade-criancas {
+    display: flex;
+    width: 100%;
+    max-width: 575px;
+    padding: 13px 24px;
+    align-items: flex-start;
+    gap: 10px;
+    border: 1px solid var(--body-text, #232329);
+    background: var(--white, #FFF);
+    margin: 10px;
+    outline: none;
+    font-weight: bold;
+    color: #000;
+    font-size: 15px;
+}
+
+option {
+    color: #000;
+    font-family: Khand;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400px;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.envia-formulario {
+    width: 100%;
+    max-width: 1370px;
+    display: flex;
+    justify-content: end;
+}
+
+.botao-enviar {
+    display: inline-flex;
+    padding: 15px 56px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 28px;
+    background: #E1690A;
+    cursor: pointer;
+}
+
+.botao-enviar:hover {
+    background: #e16b0ae7;
+    transform: scale(1.1);
+}
+
+.botao-enviar p {
+    color: var(--white, #FFF);
+    font-family: Bevan;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}   
+
+footer {
+    width: 100%;
+    height: 100vh;
+    max-height: 400px;
+    background-image: url('img/Rectang16.png');
+    position: relative;
+    bottom: -100px;
+    display: flex;
+}
+
+.good-food {
+    color: white;
+    width: 100%;
+    max-width: 400px;
+    padding: 50px;
+    background-image: url('img/majesticons_burger.svg');
+    background-repeat: no-repeat;
+    background-position: 40px 40px;
+}
+
+.titulo-good-food p {
+    color: #FFF;
+    font-family: 'Akronim', system-ui;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 60px;
+}   
+
+.text-good-food {
+    margin-top: 10px;
+    color: var(--white, #FFF);
+    font-family: Khand;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+#direitos {
+    color: var(--white, #FFF);
+    font-family: Khand;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 30px;
+}
+
+.opcoes-site {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: row;
+}
+
+.colum {
+    display: flex;
+    flex-direction: column;
+    margin: 80px;
+}
+
+.colum a {
+    text-decoration: none;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.endereco-contato {
+    color: white;
+    margin: 80px;
+}
+
+.endereco-contato p {
+    margin-bottom: 40px;
+    margin-left: 30px;
+}
+
+.endereco {
+    background-image: url('img/ph_map-pin-fill.svg');
+    background-repeat: no-repeat;
+    height: 60px;
+}
+
+.contato {
+    background-image: url('img/Vector\ \(1\).svg');
+    background-repeat: no-repeat;
+}
+
+.social {
+    display: flex;
+    width: 100%;
+    height: 100px;
+}
+
+.whatsapp {
+    background-image: url('img/ri_whatsapp-fill.svg');
+    background-repeat: no-repeat;
+    width: 100%;
+    cursor: pointer;
+}
+
+.insta {
+    background-image: url('img/bxl_instagram-alt.svg');
+    background-repeat: no-repeat;
+    width: 100%;
+    cursor: pointer;
+}
+
+.twitter {
+    background-image: url('img/ant-design_twitter-circle-filled.svg');
+    background-repeat: no-repeat;
+    width: 100%;
+    cursor: pointer;
+}
+
+.twitter:hover, .insta:hover, .whatsapp:hover {
+    transform: scale(1.1);
+}
+
+
+.fade {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.475);
+}
+
+.modal {
+    background-color: #E1690A;
+    width: 100%;
+    max-width: 400px;
+    height: 100vh;
+    max-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    color: white;
+}
+
+.modal p {
+    font-family: 'Khand', sans-serif;
+    font-size: 20px;
+}
+
+.modal button {
+    width: 90%;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    margin: 20px;
+    cursor: pointer;
+    background-color: #FEBD01;
+    font-family: 'Khand', sans-serif;
+}
