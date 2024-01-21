@@ -656,3 +656,43 @@ footer {
     background-color: #FEBD01;
     font-family: 'Khand', sans-serif;
 }
+
+@media screen and (max-width: 600px) {
+    #cards-images {
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 400px;
+    }
+
+    .image2-3 {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .formulario-reserva {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    footer {
+        bottom: -500px;
+        margin-bottom: 0;
+        width: 100%;
+    }
+
+    .textos-formulario {
+        margin-top: 100px;
+    }
+
+    .image1 {
+        background-position: center;
+    }
+
+}
